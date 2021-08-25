@@ -1,0 +1,85 @@
+
+
+.col-md-8
+{
+    background: url(https://cdn.pixabay.com/photo/2016/02/19/11/36/microphone-1209816__480.jpg)no-repeat center;
+   
+    background-size:cover;
+    position: relative;
+    right: 0%;
+    overflow: hidden;
+    height:40rem;
+    padding: 0px;
+    box-shadow: 0 3000px rgba(50, 47, 51, 0.4) inset;
+
+    
+}
+
+.row
+{
+    width: 100vw;
+    max-height: 40rem;
+    
+    /* margin: 0px; */
+    
+}
+
+
+
+.col-md-7
+{
+    position: relative;
+    bottom: 21rem;
+    left: 0rem;
+    background-color: rgb(3, 3, 49); 
+    
+       /* max-width: 11rem; */
+       /* max-height: 70rem; */
+       text-align: center;
+       justify-items: center;
+       
+}
+
+
+
+
+  .row>*
+  {
+      width: 50%;
+  }
+
+  @media (max-width: 767px) {
+
+   
+    .col-md-4
+    {
+        position: absolute;
+        top: 1rem;
+        z-index: 1;
+    }
+    .col-md-7
+   {
+       position: absolute;
+       top:17rem;
+       /* left: 0.5em; */
+       background-color: transparent;
+      
+       min-width: 22rem;
+       min-height: 35rem;
+   }
+
+   .col-md-8.col-12 
+   {
+       min-height:52rem;
+       min-width: 22rem;
+       text-align: center;
+       
+   }
+
+   
+    
+
+  }
+
+
+
